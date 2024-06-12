@@ -278,6 +278,10 @@ export default function Home() {
 
           </div>
 
+          <div className={styles.nftMovil}>
+            <Image className={styles.nftMovilImg} src="/marcoNft.png" alt="Preview of NFTs" width={430} height={519} priority />
+          </div>
+
           
 
           <div className={styles.submainLateral}>
@@ -302,7 +306,7 @@ export default function Home() {
             <Image className={styles.enlace} src="/web.png" alt="Preview of NFTs" width={170} height={44} priority />
           </div>
           <div className={styles.trailer}>
-            <Image src="/trailer.png" alt="Preview of NFTs" width={964} height={584} priority />
+            <Image className={styles.trailerImg} src="/trailer.png" alt="Preview of NFTs" width={964} height={584} priority />
           </div>
         </div>
 

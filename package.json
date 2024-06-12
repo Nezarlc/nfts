@@ -1,0 +1,32 @@
+{
+  "name": "mintui-cmv3v2-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-candy-machine": "^6.0.0-alpha.12",
+    "@metaplex-foundation/mpl-token-metadata": "^3.0.0-alpha.19",
+    "@metaplex-foundation/umi": "^0.7.7",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.7.8",
+    "@metaplex-foundation/umi-signer-wallet-adapters": "^0.7.7",
+    "@solana/wallet-adapter-base": "^0.9.22",
+    "@solana/wallet-adapter-react": "^0.15.32",
+    "@solana/wallet-adapter-react-ui": "^0.9.31",
+    "@solana/wallet-adapter-wallets": "^0.19.16",
+    "@solana/web3.js": "^1.76.0",
+    "@types/node": "20.2.1",
+    "@types/react": "18.2.6",
+    "@types/react-dom": "18.2.4",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.3",
+    "next": "13.4.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  }
+}
